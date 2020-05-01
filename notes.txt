@@ -1,0 +1,21 @@
+jupyter notebooks
+    * shortcut to run cell is shift+enter
+    * if you see b'string' this refers to a bytes conversion for a string literal.
+        This appears in video 1.4 (Alcohol Consumption). You need to include the <b> before the string
+        in the numpy.where() method.
+
+numpy
+    * numpy Arrays
+        -- numpy arrays are similar to python lists, but with more functionality
+        -- numpy.where() allows you to provide an argument similar to SQL
+        -- numpy.concatenate() allows you to concatenate two numpy arrays together
+        -- numpy arrays are FAST; they use libraries originally written for supercomputers (c & fortran based)
+
+pandas
+    * pandas is used WITH numpy for easier digestion of data
+    * when importing data, it automatically generates table-like structures similar to a DB Schema
+    * Data Types
+        -- Pandas tables (2d -- two dimensional data) are <class 'pandas.core.frame.DataFrame'>
+        -- Pandas columns (1d -- one dimensional data) are <class 'pandas.core.series.Series'>
+    * apply() method
+        -- Panda apply() method takes a second argument which is 'axis'; this refers to the specific column to be used in the method
